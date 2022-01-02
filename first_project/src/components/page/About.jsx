@@ -1,6 +1,6 @@
 function About (props) {
     return <>
-    <h1 className="mb-5">About The Project</h1>
+    <h3 className="mb-5">About The Project</h3>
     <h5>
         This project includes topics that we have covered in lessons so far. The project is built using Bootstrap, React and React-Router-Dom. 
     </h5>

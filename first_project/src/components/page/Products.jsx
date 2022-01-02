@@ -25,12 +25,12 @@ function Products (props) {
     }, [])
 
     if(loading) {
-      return <h1>Loading...</h1>
+      return <h3>Loading...</h3>
   }
     
 
     return <>
-    <h1>Films</h1>
+    <h3>Films</h3>
 
     <table className="table mt-2">
   <thead>
