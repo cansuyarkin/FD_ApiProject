@@ -2,7 +2,7 @@ import SearchProduct from "./SearchProduct";
 
 function Home (props) {
     return <>
-    <h1>Home</h1>
+    <h3 className="mb-5">Home Page</h3>
     <SearchProduct/>
     
     

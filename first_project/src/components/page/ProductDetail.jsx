@@ -29,7 +29,7 @@ function ProductDetail (props) {
     }
 
     return <>
-    <h1 className="mb-5">Film Details</h1>
+    <h3 className="mb-5">Film Details</h3>
 
     {
         newdata.map(item => (
