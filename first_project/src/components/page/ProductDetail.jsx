@@ -7,18 +7,17 @@ function ProductDetail (props) {
 
     const [data, setData] = useState([]);
 
-    function getData() {
+   useEffect(() => {
+        
         const url = 'https://ghibliapi.herokuapp.com/films'
         fetch(`${url}/${params.productId}`)
         .then(response => response.json())
         .then(json => {
-            setData(json)
+                setData(json)
         })
-    }
+    
 
-    useEffect(() => {
-        getData()
-    }, [])
+    }, [params.productId])
 
 
     const newdata = [];
