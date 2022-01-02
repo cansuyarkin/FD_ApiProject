@@ -28,7 +28,7 @@ function SearchProduct (props) {
     const urlParams = new URLSearchParams(location.search)
     const [urlQ, seturlQ] = useState(urlParams.get('filmsearch'))
 
-    const [searchValue, setSearchValue] = useState([])
+   
 
     function submitHandler(event) {
         event.preventDefault();
@@ -46,7 +46,6 @@ function SearchProduct (props) {
         type="text" 
         className="form-control" 
         id="search"
-        onChange={e => setSearchValue(e.target.value)}
         placeholder="Film Title"
       />
     </div>
